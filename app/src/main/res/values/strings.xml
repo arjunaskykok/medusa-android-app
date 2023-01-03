@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Medusa Android Application</string>
+    <string name="title_activity_products_list">ProductsListActivity</string>
+</resources>
