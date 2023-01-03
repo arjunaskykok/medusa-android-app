@@ -1,6 +1,5 @@
 package com.raywenderlich.android.medusaandroidapplication.model
 
-import android.util.Log
 import retrofit2.Callback
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

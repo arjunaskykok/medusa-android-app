@@ -3,27 +3,8 @@ package com.raywenderlich.android.medusaandroidapplication
 import android.content.Context
 import android.util.Log
 import androidx.compose.foundation.*
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material.Button
-import androidx.compose.material.Text
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.IntSize
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import androidx.datastore.core.DataStore
-import androidx.datastore.preferences.core.Preferences
-import androidx.datastore.preferences.core.edit
-import androidx.datastore.preferences.preferencesDataStore
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -33,15 +14,9 @@ import com.raywenderlich.android.medusaandroidapplication.model.*
 import com.raywenderlich.android.medusaandroidapplication.ui.CartCompose
 import com.raywenderlich.android.medusaandroidapplication.ui.ProductItem
 import com.raywenderlich.android.medusaandroidapplication.ui.ProductsList
-import com.skydoves.landscapist.ImageOptions
-import com.skydoves.landscapist.glide.GlideImage
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-
-private val Context.dataStore by preferencesDataStore(
-  name = "settings"
-)
 
 @Composable
 fun MainApp(products: List<Product>) {
