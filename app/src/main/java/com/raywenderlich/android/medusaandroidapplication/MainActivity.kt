@@ -4,10 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.*
-import androidx.compose.ui.Modifier
-import androidx.navigation.compose.rememberNavController
 import com.raywenderlich.android.medusaandroidapplication.model.Product
 import com.raywenderlich.android.medusaandroidapplication.model.ProductsResult
 import com.raywenderlich.android.medusaandroidapplication.model.ProductsRetriever
@@ -30,7 +27,6 @@ class MainActivity : ComponentActivity() {
 
     override fun onResponse(call: Call<ProductsResult>, response: Response<ProductsResult>) {
       response.isSuccessful.let {
-        Log.e("MainActivity", "Success")
         products = response.body()?.products ?: emptyList()
         setContentWithProducts()
       }
