@@ -8,6 +8,7 @@ import androidx.compose.material.*
 import com.raywenderlich.android.medusaandroidapplication.model.Product
 import com.raywenderlich.android.medusaandroidapplication.model.ProductsResult
 import com.raywenderlich.android.medusaandroidapplication.model.ProductsRetriever
+import com.raywenderlich.android.medusaandroidapplication.ui.MainApp
 import com.raywenderlich.android.medusaandroidapplication.ui.theme.MedusaAndroidApplicationTheme
 import retrofit2.Call
 import retrofit2.Callback

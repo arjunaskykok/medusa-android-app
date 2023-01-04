@@ -1,8 +1,6 @@
-package com.raywenderlich.android.medusaandroidapplication
+package com.raywenderlich.android.medusaandroidapplication.ui
 
-import android.content.Context
 import android.util.Log
-import androidx.compose.foundation.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.navigation.NavType
@@ -11,9 +9,6 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.raywenderlich.android.medusaandroidapplication.model.*
-import com.raywenderlich.android.medusaandroidapplication.ui.CartCompose
-import com.raywenderlich.android.medusaandroidapplication.ui.ProductItem
-import com.raywenderlich.android.medusaandroidapplication.ui.ProductsList
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
