@@ -1,4 +1,4 @@
-package com.raywenderlich.android.medusaandroidapplication.model
+package com.medusajs.android.medusaandroidapplication.model
 
 import retrofit2.Callback
 import retrofit2.Retrofit

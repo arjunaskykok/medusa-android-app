@@ -1,15 +1,15 @@
-package com.raywenderlich.android.medusaandroidapplication
+package com.medusajs.android.medusaandroidapplication
 
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material.*
-import com.raywenderlich.android.medusaandroidapplication.model.Product
-import com.raywenderlich.android.medusaandroidapplication.model.ProductsResult
-import com.raywenderlich.android.medusaandroidapplication.model.ProductsRetriever
-import com.raywenderlich.android.medusaandroidapplication.ui.MainApp
-import com.raywenderlich.android.medusaandroidapplication.ui.theme.MedusaAndroidApplicationTheme
+import com.medusajs.android.medusaandroidapplication.model.Product
+import com.medusajs.android.medusaandroidapplication.model.ProductsResult
+import com.medusajs.android.medusaandroidapplication.model.ProductsRetriever
+import com.medusajs.android.medusaandroidapplication.ui.MainApp
+import com.medusajs.android.medusaandroidapplication.ui.theme.MedusaAndroidApplicationTheme
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

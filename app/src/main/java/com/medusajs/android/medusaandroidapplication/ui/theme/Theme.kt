@@ -1,4 +1,4 @@
-package com.raywenderlich.android.medusaandroidapplication.ui.theme
+package com.medusajs.android.medusaandroidapplication.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

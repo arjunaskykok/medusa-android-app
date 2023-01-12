@@ -1,4 +1,4 @@
-package com.raywenderlich.android.medusaandroidapplication.ui
+package com.medusajs.android.medusaandroidapplication.ui
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.Column
@@ -14,7 +14,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
-import com.raywenderlich.android.medusaandroidapplication.model.Product
+import com.medusajs.android.medusaandroidapplication.model.Product
 import com.skydoves.landscapist.ImageOptions
 import com.skydoves.landscapist.glide.GlideImage
 

@@ -1,4 +1,4 @@
-package com.raywenderlich.android.medusaandroidapplication.ui
+package com.medusajs.android.medusaandroidapplication.ui
 
 import android.util.Log
 import androidx.compose.runtime.*
@@ -8,7 +8,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.raywenderlich.android.medusaandroidapplication.model.*
+import com.medusajs.android.medusaandroidapplication.model.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -1,4 +1,4 @@
-package com.raywenderlich.android.medusaandroidapplication
+package com.medusajs.android.medusaandroidapplication
 
 import org.junit.Test
 

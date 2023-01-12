@@ -1,4 +1,4 @@
-package com.raywenderlich.android.medusaandroidapplication.model
+package com.medusajs.android.medusaandroidapplication.model
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

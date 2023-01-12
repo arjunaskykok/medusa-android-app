@@ -1,4 +1,4 @@
-package com.raywenderlich.android.medusaandroidapplication.model
+package com.medusajs.android.medusaandroidapplication.model
 
 data class ProductsResult(val products: List<Product>)
 

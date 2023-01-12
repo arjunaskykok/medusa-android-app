@@ -1,4 +1,4 @@
-package com.raywenderlich.android.medusaandroidapplication
+package com.medusajs.android.medusaandroidapplication
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
