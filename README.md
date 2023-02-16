@@ -6,7 +6,7 @@ This repository is the codebase of tutorial [Create an Android Ecommerce App wit
 
 ## Medusa Version
 
-This tutorial uses Medusa v1.3.5. It is not guaranteed that it will work with future releases.
+This tutorial uses Medusa v1.7.7. It is not guaranteed that it will work with future releases.
 
 ## Prerequisites
 
