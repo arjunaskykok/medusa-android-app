@@ -1,6 +1,6 @@
 # Create an Android Ecommerce App with Medusa
 
-This repository is the codebase of tutorial [Create an Android Ecommerce App with Medusa](https://www.notion.so/medusajs/Create-an-Android-Ecommerce-App-with-Medusa-96440c38d75841d197f003676d7a0989).
+This repository is the codebase of tutorial [How to Build an Android Ecommerce App with Medusa](https://medusajs.com/blog/android-ecommerce/).
 
 [Medusa Documentation](https://docs.medusajs.com/) | [Medusa Website](https://medusajs.com/) | [Medusa Repository](https://github.com/medusajs/medusa)
 
@@ -15,8 +15,6 @@ This tutorial uses Medusa v1.7.7. It is not guaranteed that it will work with fu
 - [Yarn at least v1.22](https://classic.yarnpkg.com/lang/en/docs/install)
 
 ## How to Install
-
-_You may change these steps per your article._
 
 1. Clone this repository:
 
